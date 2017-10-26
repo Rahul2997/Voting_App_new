@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7986CB"
+    tools:context="com.voting.internship.voting_app.count"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/et1_count"
+        android:layout_weight="0.14" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Votes"
+        android:onClick="ReadMNS"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/b1_count"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/et2_count"
+        android:layout_weight="0.14" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Votes"
+        android:onClick="ReadSHIVSENA"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/b2_count"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/et3_count"
+        android:layout_weight="0.14" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Votes"
+        android:onClick="ReadCONGRESS"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/b3_count"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/et4_count"
+        android:layout_weight="0.14" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Votes"
+        android:onClick="ReadBJP"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/b4_count"/>
+
+
+    <Button
+        android:id="@+id/back_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:onClick="back"
+        android:text="BACK" />
+
+
+</LinearLayout>

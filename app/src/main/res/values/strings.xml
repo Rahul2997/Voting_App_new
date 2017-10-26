@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Voting_App_for_Internship</string>
+    <string name="shivsena">SHIVSENA</string>
+    <string name="mns">MNS</string>
+    <string name="congress">CONGRESS</string>
+    <string name="bjp">BJP</string>
+    <string name="save">SAVE</string>
+    <string name="enter_admin_id">Enter Admin_id</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="ok">OK</string>
+    <string name="enter_login_id">Enter Login_id</string>
+    <string name="enter_aadhar_no">Enter Aadhar NO</string>
+    <string name="admin">ADMIN</string>
+    <string name="invalid_login_id">Invalid Login_Id</string>
+    <string name="Incorect_aadhar_no">Incorrect Aadhar no</string>
+    <string name="Login_Empty">Login Empty</string>
+    <string name="Empty_Login_id">Empty login_id</string>
+    <string name="empty_aadhar_no">Empty Aadhar_no</string>
+    <string name="one_of_the_field_is_empty">One of the field is empty</string>
+    <string name="vote_taken_succesfully">Vote Taken Sucessfully</string>
+    <string name="THANK_YOU">THANK YOU FOR CHECKING</string>
+</resources>

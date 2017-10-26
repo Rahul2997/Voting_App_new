@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.voting.internship.voting_app.Admin"
+    android:background="#7986CB">
+
+    <EditText
+        android:id="@+id/tv1_admin"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="105dp"
+        android:hint="@string/enter_admin_id"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/tv2_admin"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:textColorHint="#ffffff"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/enter_password"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/tv1_admin"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/b1_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/tv2_admin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:onClick="back"
+        android:id="@+id/backadmin"
+        android:layout_below="@+id/b1_admin"
+        android:layout_alignStart="@+id/b1_admin"
+        android:layout_marginTop="38dp" />
+
+
+</RelativeLayout>

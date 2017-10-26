@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7986CB"
+    tools:context="com.voting.internship.voting_app.vote">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1_vote"
+        android:onClick="Writebtn1"
+        android:textColor="#ffffff"
+        android:text="@string/mns"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b2_vote"
+        android:onClick="Writebtn2"
+        android:textColor="#ffffff"
+        android:text="@string/shivsena"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3_vote"
+        android:onClick="Writebtn3"
+        android:textColor="#ffffff"
+        android:text="@string/congress"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/b4_vote"
+        android:onClick="Writebtn4"
+        android:textColor="#ffffff"
+        android:text="@string/bjp"
+        />
+
+    <Button
+        android:id="@+id/b5_vote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textColor="#ffffff" />
+</LinearLayout>

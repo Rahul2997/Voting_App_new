@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:activityandroid="http://schemas.android.com/apk/res-auto"
+    package="com.voting.internship.voting_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.voting.internship.voting_app.MainActivity"
+                    android:label="Main Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.voting.internship.voting_app.Admin"
+            android:label="Admin">
+            <intent-filter>
+                <action android:name="Admin" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="com.voting.internship.voting_app.vote"
+            android:label="vote">
+            <intent-filter>
+                <action android:name="vote" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="com.voting.internship.voting_app.end"
+            android:label="end">
+            <intent-filter>
+                <action android:name="end" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="com.voting.internship.voting_app.count"
+            android:label="count">
+            <intent-filter>
+                <action android:name="count" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
